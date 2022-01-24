@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors')
 
-const url = 'mongodb+srv://user:1234@cluster0.h9rkp.mongodb.net/attendance?retryWrites=true&w=majority';
+const url = 'mongodb+srv://user:<password>@cluster0.h9rkp.mongodb.net/attendance?retryWrites=true&w=majority';
 
 const studentRoutes = require('./routes/students.routes')
 const staffRoutes = require('./routes/staff.routes')
